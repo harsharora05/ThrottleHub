@@ -1,12 +1,13 @@
 {
-  "name": "websocket-server",
+  "name": "@repo/db",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -b",
-    "dev": "node ./dist/index.js",
-    "start": "pnpm run build && pnpm run start"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    "./client": "./client.ts"
   },
   "keywords": [],
   "author": "",
